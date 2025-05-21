@@ -3,7 +3,7 @@ import threading
 import base64
 from crypto_utils import *
 
-HOST='192.168.0.106'
+HOST='192.162.0.0' #your ip address
 PORT=65432
 
 pub_key = load_public_key()
