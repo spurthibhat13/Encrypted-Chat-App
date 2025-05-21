@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import scrolledtext, simpledialog, filedialog, messagebox
 from crypto_utils import *
 
-HOST = '192.168.0.106'
+HOST = '192.162.0.0' #host ip address
 PORT = 65432
 
 pub_key = load_public_key()
